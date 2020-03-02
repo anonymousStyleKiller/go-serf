@@ -498,7 +498,7 @@
 }
 
 
-.Travel {
+.holder {
   background-image: url(../img/cocktail.png);
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -508,7 +508,7 @@
   }
 }
 
-.travel-slider {
+.holder-slider {
   &__head {
     background-repeat: no-repeat;
     background-position: top left;
@@ -530,6 +530,14 @@
         right: 0;
         top:0;
       }
+      .holder__star-list{
+        li{
+          display: inline-block;
+        }
+        img{
+          position: static;
+        }
+      }
     }
 
     img {
@@ -550,7 +558,7 @@
 
 
 
-.travel-slider__info {
+.holder-slider__info {
   margin-top: 80px;
   margin-right: 140px;
   display: flex;
