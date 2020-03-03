@@ -169,7 +169,6 @@
 }
 
 
-
 .dots-box {
   width: 200px;
   display: flex;
@@ -442,7 +441,6 @@
 }
 
 
-
 .slider-dots--2 {
   top: 275px;
   left: 0;
@@ -502,7 +500,8 @@
   background-image: url(../img/cocktail.png);
   background-position: bottom right;
   background-repeat: no-repeat;
-  .slider-arrows{
+
+  .slider-arrows {
     top: 230px;
     opacity: 0.5;
   }
@@ -522,27 +521,32 @@
     background-repeat: no-repeat;
     background-position: right top;
 
-    .descr__head{
+    .descr__head {
       position: relative;
-      padding-right: 78px;
-      img{
+      padding-right: 215px;
+
+      img {
         position: absolute;
         right: 0;
-        top:0;
+        top: 0;
       }
-      .holder__star-list{
-        li{
+
+      .holder__star-list {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        li {
           display: inline-block;
+          margin-left: -25px;
         }
-        img{
+
+        img {
           position: static;
         }
       }
     }
 
-    img {
-      padding-left: 24px;
-    }
   }
 
   &__subtittle {
@@ -555,7 +559,6 @@
     text-align: center;
   }
 }
-
 
 
 .holder-slider__info {
@@ -602,7 +605,6 @@
     }
   }
 }
-
 
 
 @import "media";
