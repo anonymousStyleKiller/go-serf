@@ -37,7 +37,6 @@ button {
 }
 
 
-
 .container {
   max-width: 1920px;
   margin: 0 auto;
@@ -89,7 +88,7 @@ button {
   }
 }
 
-.tittle {
+.title {
   span {
     position: relative;
     font-weight: 800;
@@ -119,7 +118,7 @@ button {
   }
 }
 
-.suptittle {
+.suptitle {
   display: inline-block;
   text-align: right;
 
@@ -191,7 +190,74 @@ button {
   padding: 160px 0 120px;
 }
 
-.holder{
+.holder {
   padding-bottom: 265px;
   margin-bottom: 35px;
 }
+
+.quantity {
+  display: inline-block;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 25px;
+  height: 42px;
+  display: block;
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 36px;
+  color: white;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: static;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  color: $green;
+  top: 40px;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  right: -25px;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  right: 0;
+}
+
+.star-list {
+  li {
+    display: inline-block;
+    margin-left: -25px;
+  }
+}
+
