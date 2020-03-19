@@ -608,5 +608,43 @@
   }
 }
 
+.Shop {
+  background-image: url("../img/Shop-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.shop__slider {
+  padding-left: 132px;
+}
+
+.shop__slider-inner{
+  display: flex;
+}
+
+.shop__slider-info{
+  max-width: 440px;
+  width: 100%;
+  margin-right: 40px;
+}
+
+.descr__head-shop{
+  max-width: 340px;
+  margin-bottom: 47px;
+}
+
+.shop__star-list{
+  margin-left: -9px;
+}
+
+.shop__slider-price{
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
 
 @import "media";
