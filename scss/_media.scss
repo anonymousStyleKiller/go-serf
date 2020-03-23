@@ -1,0 +1,150 @@
+// Laptop for Mac
+@media (max-width: 1440px) {
+  .logo {
+    img {
+      width: 100px;
+    }
+  }
+  .header__title {
+    width: 125px;
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 100px;
+    left: 100px;
+  }
+  .menu {
+    padding-top: 10px;
+  }
+  .header__search {
+    padding-bottom: 8px;
+  }
+
+  .header__date {
+    font-size: 60px;
+    line-height: 50px;
+
+    span {
+      padding-top: 0;
+      font-size: 14px;
+    }
+  }
+  .header__arrows {
+    left: 130px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .header__aside {
+    display: flex;
+    position: absolute;
+    text-align: left;
+    border-right: none;
+    height: 108px;
+    padding-right: 25px;
+    background-color: rgba(#fff, 0.1);
+  }
+  .menu {
+    padding-top: 0;
+  }
+  .menu__list {
+    text-align: center;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      padding: 15px;
+    }
+  }
+  .header__search {
+    padding: 33px 15px 15px;
+  }
+  .header__date {
+    padding: 15px;
+  }
+  .header__location {
+    margin-top: 42px;
+  }
+  .slider-item__info-title {
+    font-size: 65px;
+  }
+  .header__arrows {
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .header__map {
+    svg {
+      width: 500px;
+      height: 250px;
+    }
+  }
+  .slider-arrows {
+    top: 20px;
+    right: 20px;
+  }
+
+  .slider-arrows__left {
+    right: 60px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .header__arrows {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .header__search {
+    padding: 40px 15px 15px;
+  }
+  .slider-item__info {
+    right: 20px;
+    bottom: 16px;
+  }
+  .slider-item__info-text {
+    font-size: 30px;
+    line-height: 20px;
+  }
+  .headline-left {
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 65px;
+  }
+  .slider-item__info-suptext {
+    margin-bottom: 5px;
+  }
+  .headline-left:before {
+    width: 50px;
+  }
+  .slider-item__info-title {
+    font-size: 50px;
+  }
+  .slider-item__info-title {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+  .slider-dots__head {
+    right: 0px;
+    bottom: 5px;
+    left: 0;
+    margin: 0 auto;
+  }
+  .dots-box{
+    width: 130px;
+  }
+  .dots-box__number{
+    font-size: 18px;
+  }
+  .dots-box__name{
+    line-height: 16px;
+  }
+
+}
+
+
